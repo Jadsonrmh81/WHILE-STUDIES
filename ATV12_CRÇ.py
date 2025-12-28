@@ -26,16 +26,3 @@ while True:
         l.append(word)
         print(f'"{word}" added to the list.')
 
-# Regra da programação: executar -> validar -> decidir
-
-#Regra mental:
-
-# Não faça: 
-#l.append(entrada)
-   #if entrada é válida:
-
-# Faça:
-#if entrada é válida:
-    #l.append(entrada)
-
-# lembrete: a ordem das condições muda tudo.
