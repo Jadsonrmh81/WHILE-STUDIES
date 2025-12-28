@@ -1,13 +1,11 @@
 while True:
-    word = input('Type a word: ').lower() #transforma em minúscula
+    word = input('Type a word: ').lower() 
 
-    # verifica se só tem letras
     if word.isalpha():
         break
     else:
         print('Just letters, please.')
-
-# contador de vogais
+        
 vowels = 'aeiou'
 count = 0
 
